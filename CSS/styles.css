@@ -1,0 +1,774 @@
+/***************************************General Styles***************************************/
+body,
+p,
+h1,
+h2 {
+  margin: 0px;
+}
+
+.Landing-Home-Page {
+  background-color: white;
+}
+
+.Background-Image {
+  background-image: url(./../images/drew-coffman-1872.jpg);
+  background-position: center center;
+  background-size: cover;
+  /* height: 134vh; */
+  /* background-attachment: fixed; */
+}
+
+.Container {
+  margin: auto;
+  width: 90.1420924%;
+  /* background-color: black; */
+}
+
+.Text-Align-Center {
+  text-align: center;
+}
+
+.Clear-Fix {
+  clear: both;
+}
+/***************************************Navigation Bar Styles***************************************/
+.Navigation-Bar {
+  background-color: transparent;
+  /* background-color: tan; */
+  margin-bottom: 175px;
+  width: 100%;
+  height: 90px;
+}
+
+.Navigation-Bar-Left {
+  display: inline-block;
+  width: 49.82%;
+  vertical-align: middle;
+  /* background-color: tomato; */
+}
+
+.Navigation-Bar-Right {
+  display: inline-block;
+  width: 49.82%;
+  vertical-align: middle;
+  /* background-color: blueviolet; */
+}
+
+.Navigation-Links {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: chartreuse; */
+}
+
+.Navigation-Tab {
+  display: inline-block;
+  /* background-color: aqua; */
+  padding-inline: 15px;
+}
+
+.Navigation-Links a {
+  color: white;
+  text-decoration: none;
+  font-family: Alegreya;
+  font-size: 18px;
+  width: 100%;
+}
+
+.Bakery-Logo {
+  width: 100%;
+}
+
+.Bakery-Logo img {
+  width: 30.786%;
+  padding-block: 21px;
+  padding-inline-start: 20px;
+}
+
+div.Navigation-Bar div.Container {
+  height: 100%;
+}
+
+/***************************************Home Styles***************************************/
+.Home-Page {
+  padding-bottom: 60px;
+  /* background-color: teal; */
+}
+
+.Home-Page-Intro {
+  font-family: Alegreya;
+  color: white;
+  /* background-color: green; */
+  width: 63%;
+  margin-inline: auto;
+  margin-bottom: 30px;
+}
+.Home-Page-Buttons {
+  /* background-color: chocolate; */
+  margin-bottom: 100px;
+}
+.Curvy-Shape {
+  height: 46px;
+  width: 28px;
+  /* background-color: blueviolet; */
+  border: 2px solid white;
+  border-radius: 24px;
+  margin-inline: auto;
+}
+
+.Home-Page-P1-Font {
+  font-size: 22px;
+  font-family: Alegreya Sans;
+  margin-bottom: 5px;
+}
+
+.Home-Page-Heading-One-Font {
+  font-size: 76px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+.Home-Page-P2-Font {
+  font-size: 24px;
+  font-family: Alegreya Sans;
+  line-height: 41px;
+}
+
+.Contact-Us-Btn {
+  background-color: transparent;
+  border: 2px white solid;
+  border-radius: 4px;
+  padding: 15px 28px;
+  display: inline-block;
+  font-family: Alegreya Sans;
+  font-weight: bolder;
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+
+.Learn-More-Btn {
+  background-color: #8e7754;
+  border: 2px #8e7754 solid;
+  border-radius: 4px;
+  padding: 15px 28px;
+  display: inline-block;
+  font-family: Alegreya Sans;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+
+.Home-Page-Buttons a {
+  text-decoration: none;
+  color: white;
+}
+
+/***************************************Who we Are Page Styles***************************************/
+.Who-We-Are-Page {
+  /* background-color: blue; */
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 65px;
+}
+
+.Who-We-Are-Left {
+  /* background-color: green; */
+  display: inline-block;
+  width: 49.82%;
+  box-sizing: border-box;
+}
+
+.Who-We-Are-Right {
+  /* background-color: orangered; */
+  display: inline-block;
+  width: 49.82%;
+  vertical-align: top;
+  padding-block-start: 24px;
+  padding-left: 20px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+.Who-We-Are-Left img {
+  width: 92.236%;
+}
+
+.Who-We-Are-Right-Icon-List img {
+  width: 42.667px;
+  height: 42.667px;
+  border: 0.667px solid #807754;
+  border-radius: 21.3335px;
+}
+
+.Who-We-Are-Right-Heading-Two h2 {
+  font-family: Alegreya;
+  font-weight: lighter;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #303030;
+}
+
+.Who-We-Are-Right-Paragraph p {
+  font-family: Alegreya Sans;
+  color: #686868;
+  font-size: 17px;
+  padding-right: 23px;
+  margin-bottom: 25px;
+  line-height: 32px;
+}
+
+.Who-We-Are-Right-Icon-List ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.Who-We-Are-Right-Icon-List li {
+  margin-bottom: 14px;
+}
+
+.List-Item-Text {
+  vertical-align: top;
+  display: inline-block;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+
+/***************************************Our Location Styles***************************************/
+.Our-Location-Page {
+  background-color: #f8f8f8;
+  padding-block: 90px;
+  box-sizing: border-box;
+}
+
+.Our-Location-Left {
+  /* background-color: red; */
+  display: inline-block;
+  width: 49.82%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-top: 70px;
+  padding-bottom: 68.7px;
+}
+
+.Our-Location-Right {
+  /* background-color: blue; */
+  display: inline-block;
+  width: 49.82%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 17.24px;
+}
+
+.Our-Location-Right img {
+  width: 100%;
+}
+
+.Our-Location-Left-Heading-Two {
+  margin-bottom: 25px;
+  padding-right: 36px;
+}
+
+.Our-Location-Left-Paragraph-One {
+  margin-bottom: 20px;
+  padding-right: 36px;
+}
+
+.Our-Location-Left-Paragraph-Two {
+  padding-right: 46px;
+}
+
+.Our-Location-Left-Heading-Two h2 {
+  color: #303030;
+  font-weight: lighter;
+  font-family: Alegreya;
+  font-size: 32px;
+}
+
+.Our-Location-Left-Paragraph-One p {
+  color: #686868;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  line-height: 31px;
+}
+
+.Our-Location-Left-Paragraph-Two p {
+  color: #686868;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  line-height: 31px;
+}
+
+/***************************************Our Baking Styles***************************************/
+
+.Our-Baking-Page {
+  padding-block: 70px 50px;
+}
+
+.Our-Baking-Intro {
+  margin-block: 10px 60px;
+}
+.Our-Baking-Intro h1 {
+  color: #303030;
+  font-family: Alegreya;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.Our-Baking-Intro p {
+  color: #888888;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  margin-top: 17px;
+  margin-inline: 195px 195.01px;
+  line-height: 35px;
+}
+
+.Our-Baking-Sections {
+  width: 100%;
+}
+
+.Our-Baking-Superior-Breads {
+  margin-inline: 15px 20px;
+  /* background-color: teal; */
+}
+
+.Our-Baking-Bagels {
+  margin-inline: 20px;
+  /* background-color: red; */
+}
+
+.Our-Baking-Cookies {
+  margin-inline: 20px 15px;
+  /* background-color: blue; */
+}
+
+.Our-Baking-Card-Content {
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+  /* background-color: tan; */
+}
+
+.Our-Baking-Superior-Breads h3 {
+  color: #303030;
+  font-family: Alegreya;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.Our-Baking-Superior-Breads p {
+  color: #686868;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.Our-Baking-Bagels h3 {
+  color: #303030;
+  font-family: Alegreya;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.Our-Baking-Bagels p {
+  color: #686868;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.Our-Baking-Cookies h3 {
+  color: #303030;
+  font-family: Alegreya;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.Our-Baking-Cookies p {
+  color: #686868;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.Our-Baking-Superior-Breads h3 {
+  color: #303030;
+  font-family: Alegreya;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.Our-Baking-Superior-Breads img {
+  width: 100%;
+}
+
+.Our-Baking-Bagels img {
+  width: 100%;
+}
+
+.Our-Baking-Cookies img {
+  width: 100%;
+}
+/***************************************Contact Information Styles***************************************/
+.Contact-Information-Page {
+  background-color: #f8f8f8;
+  /* background-color: tan; */
+  padding-block: 85px;
+}
+
+.Contact-Information-Left {
+  width: 50%;
+  float: left;
+  padding-right: 37.792px;
+  padding-left: 15px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  /* background-color: orange; */
+}
+
+.Contact-Information-Right {
+  width: 50%;
+  float: left;
+  padding-left: 22.792px;
+  box-sizing: border-box;
+  /* background-color: green; */
+}
+
+.Contact-Information-Right iframe {
+  width: 100%;
+  height: 551px;
+  display: block;
+}
+
+.Contact-Information-Left h2 {
+  margin-bottom: 25px;
+  color: #303030;
+  font-family: Alegreya;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.Contact-Information-Left span,
+.Contact-Information-Left p {
+  margin-bottom: 30px;
+  color: #686868;
+  font-family: Alegreya Sans;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.Our-Contact-Details {
+  box-sizing: border-box;
+}
+
+.Our-Contact-Details p {
+  margin-bottom: 0px;
+}
+
+.Our-Contact-Details ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.Our-Contact-Details ul li {
+  padding-block: 15px;
+}
+
+.Our-Contact-Details ul li img {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #8e7754;
+  margin-right: 10px;
+}
+
+.Our-Contact-Details ul li span {
+  vertical-align: top;
+}
+
+/***************************************Footer Top Styles***************************************/
+.Footer-Top {
+  background-color: #403d38;
+  padding-block: 60px 52px;
+}
+
+.Footer-Top-Lists {
+  /* background-color: tan; */
+}
+
+.Footer-Top-Card {
+  /* background-color: brown; */
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.About-Us-List {
+  /* background-color: blue; */
+  margin-inline: 15.938px;
+}
+
+.Why-We-Are-Special-List {
+  /* background-color: red; */
+  margin-inline: 15.938px;
+}
+
+.Opening-Hours-List {
+  /* background-color: rebeccapurple; */
+  margin-inline: 15.938px;
+}
+
+.Contact-Details-List {
+  /* background-color: green; */
+  margin-inline: 15.938px;
+  background-image: url(./../images/contact-details-map.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.About-Us-List h3 {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: white;
+  margin-top: 0px;
+}
+
+.About-Us-List p.About-us-First-Paragraph {
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #969696;
+  line-height: 30px;
+}
+
+.About-Us-List p.About-us-Second-Paragraph {
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+  line-height: 30px;
+}
+
+.Why-We-Are-Special-List h3 {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: white;
+  margin-top: 0px;
+}
+
+.Why-We-Are-Special-List ul {
+  list-style-type: none;
+  padding: 0px;
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+  line-height: 30px;
+}
+
+.Why-We-Are-Special-List ul li {
+  margin-bottom: 6px;
+  padding-bottom: 7px;
+  border: 0.667px #969696 solid;
+  border-inline: 0px;
+  border-top: 0px;
+}
+
+.Why-We-Are-Special-List ul li::before {
+  content: ">";
+  padding-right: 8px;
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+}
+
+.Opening-Hours-List h3 {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: white;
+  margin-top: 0px;
+}
+
+.Opening-Hours-List ul {
+  list-style-type: none;
+  padding: 0px;
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+  line-height: 30px;
+}
+
+.Opening-Hours-List ul li {
+  margin-bottom: 6px;
+  padding-bottom: 7px;
+  border: 0.667px #969696 solid;
+  border-inline: 0px;
+  border-top: 0px;
+}
+
+.Opening-Hours-List ul li::before {
+  content: ">";
+  padding-right: 8px;
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+}
+
+.Contact-Details-List h3 {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: white;
+  margin-top: 0px;
+}
+
+.Contact-Details-List ul {
+  list-style-type: none;
+  padding: 0px;
+  font-family: Alegreya Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #969696;
+}
+
+.Contact-Details-List ul li {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border: 0.667px #969696 solid;
+  border-inline: 0px;
+  border-top: 0px;
+  vertical-align: middle;
+}
+
+.Contact-Details-List-First-Item {
+  /* background-color: brown; */
+}
+
+.Contact-Details-List-First-Icon {
+  float: left;
+  width: 11%;
+  /* background-color: aqua; */
+}
+
+.Contact-Details-List-First-Text p {
+  float: left;
+  /* background-color: blueviolet; */
+  width: 89%;
+  line-height: 29px;
+}
+
+.Contact-Details-List-Item div a {
+  color: #969696;
+  text-decoration: none;
+}
+
+.Contact-Details-List-Item div {
+  width: 88%;
+  /* float: left; */
+  /* background-color: teal; */
+  box-sizing: border-box;
+  vertical-align: top;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+.Contact-Details-List-Item img {
+  width: 12%;
+  float: left;
+  /* background-color: tomato; */
+  box-sizing: border-box;
+}
+
+.Opening-Hours-List ul li.Last-List-Item {
+  border-bottom: 0px;
+}
+
+.Contact-Details-List ul li.Last-List-Item {
+  border-bottom: 0px;
+}
+
+.Contact-Details-List ul li.Last-List-Item {
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/***************************************Footer Down Styles***************************************/
+.Footer-Bottom {
+  background-color: #353330;
+  padding-block: 50px 40px;
+  box-sizing: border-box;
+}
+
+.Footer-Bottom-Logo {
+  margin-block: 10px 25px;
+  width: 100%;
+  /* background-color: tan; */
+}
+
+.Footer-Bottom-Logo img {
+  width: 30.9659123%;
+  margin-inline: auto;
+}
+
+.Footer-Bottom-Copyright-Paragraph {
+  /* background-color: teal; */
+  width: 100%;
+  margin-top: 5px;
+}
+
+.Footer-Bottom-Copyright-Paragraph p {
+  font-family: Alegreya Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.Footer-Bottom-Social-Media-Icons {
+  padding-top: 8px;
+  margin-top: 15px;
+  width: 100%;
+  /* background-color: purple; */
+}
+
+.Footer-Bottom-Social-Media-Icons .wrapper {
+  /* background-color: blue; */
+  width: 16%;
+  margin-inline: auto;
+}
+
+.Footer-Bottom-Social-Media-Icons ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Footer-Bottom-Social-Media-Icons ul li {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding-right: 8px;
+}
+
+.Footer-Bottom-Social-Media-Icons ul li.Twitter {
+  /* padding-right: 0px; */
+}
+
+.Footer-Bottom-Social-Media-Icons li a img {
+  background-color: #484540;
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
