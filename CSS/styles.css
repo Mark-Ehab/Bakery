@@ -15,7 +15,7 @@ h2 {
   background-position: center center;
   background-size: cover;
   /* height: 134vh; */
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .Container {
@@ -696,7 +696,7 @@ div.Navigation-Bar div.Container {
   border-bottom: 0px;
 }
 
-.Contact-Details-List ul li.Last-List-Item {
+.Why-We-Are-Special-List ul li.Last-List-Item {
   border-bottom: 0px;
 }
 
