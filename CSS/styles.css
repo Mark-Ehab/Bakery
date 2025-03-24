@@ -524,7 +524,7 @@ div.Navigation-Bar div.Container {
   margin-inline: 15.938px;
   background-image: url(./../images/contact-details-map.png);
   background-position: center center;
-  background-size: contain;
+  /* background-size: contain; */
   background-repeat: no-repeat;
 }
 
@@ -576,7 +576,7 @@ div.Navigation-Bar div.Container {
 .Why-We-Are-Special-List ul li {
   margin-bottom: 6px;
   padding-bottom: 7px;
-  border: 0.667px #969696 solid;
+  border: 0.667px rgba(150, 150, 150, 0.1) solid;
   border-inline: 0px;
   border-top: 0px;
 }
@@ -612,7 +612,7 @@ div.Navigation-Bar div.Container {
 .Opening-Hours-List ul li {
   margin-bottom: 6px;
   padding-bottom: 7px;
-  border: 0.667px #969696 solid;
+  border: 0.667px rgba(150, 150, 150, 0.1) solid;
   border-inline: 0px;
   border-top: 0px;
 }
@@ -647,7 +647,7 @@ div.Navigation-Bar div.Container {
 .Contact-Details-List ul li {
   padding-bottom: 12px;
   margin-bottom: 12px;
-  border: 0.667px #969696 solid;
+  border: 0.667px rgba(150, 150, 150, 0.1) solid;
   border-inline: 0px;
   border-top: 0px;
   vertical-align: middle;
