@@ -743,32 +743,28 @@ div.Navigation-Bar div.Container {
   /* background-color: purple; */
 }
 
-.Footer-Bottom-Social-Media-Icons .wrapper {
-  /* background-color: blue; */
-  width: 16%;
-  margin-inline: auto;
-}
-
 .Footer-Bottom-Social-Media-Icons ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  width: 16.1405%;
+  margin-inline: auto;
+  /* background-color: #807754; */
 }
 
 .Footer-Bottom-Social-Media-Icons ul li {
   box-sizing: border-box;
   float: left;
-  width: 25%;
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .Footer-Bottom-Social-Media-Icons ul li.Twitter {
-  /* padding-right: 0px; */
+  margin-right: 0px;
 }
 
 .Footer-Bottom-Social-Media-Icons li a img {
   background-color: #484540;
-  width: 100%;
+  width: 40px;
   display: block;
   border-radius: 20px;
 }
