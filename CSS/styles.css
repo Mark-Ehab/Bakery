@@ -146,6 +146,14 @@ div.Navigation-Bar div.Container {
   margin-bottom: 12px;
 }
 
+.Contact-Us-Btn:hover {
+  background-color: white;
+}
+
+.Contact-Us-Btn:hover a {
+  color: rgb(51, 51, 51);
+}
+
 .Learn-More-Btn {
   background-color: #8e7754;
   border: 2px #8e7754 solid;
@@ -155,6 +163,15 @@ div.Navigation-Bar div.Container {
   font-family: Alegreya Sans;
   font-weight: bolder;
   margin-bottom: 12px;
+}
+
+.Learn-More-Btn:hover {
+  background-color: white;
+  border-color: white;
+}
+
+.Learn-More-Btn:hover a {
+  color: rgb(51, 51, 51);
 }
 
 .Home-Page-Buttons a {
