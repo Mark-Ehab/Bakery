@@ -785,3 +785,20 @@ div.Navigation-Bar div.Container {
   display: block;
   border-radius: 20px;
 }
+
+.Footer-Bottom-Social-Media-Icons li.Facebook a:hover img {
+  background-color: rgb(59, 89, 152);
+  opacity: 1;
+}
+
+.Footer-Bottom-Social-Media-Icons li.Google a:hover img {
+  background-color: rgb(221, 75, 57);
+}
+
+.Footer-Bottom-Social-Media-Icons li.Linkedin a:hover img {
+  background-color: rgb(0, 123, 181);
+}
+
+.Footer-Bottom-Social-Media-Icons li.Twitter a:hover img {
+  background-color: rgb(0, 172, 237);
+}
