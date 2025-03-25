@@ -582,9 +582,9 @@ div.Navigation-Bar div.Container {
 }
 
 .Why-We-Are-Special-List ul li::before {
-  content: ">";
+  content: "\f105";
   padding-right: 8px;
-  font-family: Alegreya Sans;
+  font-family: FontAwesome;
   font-size: 16px;
   font-weight: 400;
   color: #969696;
@@ -618,9 +618,9 @@ div.Navigation-Bar div.Container {
 }
 
 .Opening-Hours-List ul li::before {
-  content: ">";
+  content: "\f105";
   padding-right: 8px;
-  font-family: Alegreya Sans;
+  font-family: FontAwesome;
   font-size: 16px;
   font-weight: 400;
   color: #969696;
