@@ -556,9 +556,13 @@ div.Navigation-Bar div.Container {
   margin-inline: 15.938px;
 }
 
+.Contact-Details-List {
+  /* background-color: coral; */
+  margin-inline: 15.938px;
+}
+
 .Contact-Details-List div.Contact-Details-List-Background {
   /* background-color: green; */
-  margin-inline: 15.938px;
   background-image: url(./../images/contact-details-map.png);
   background-position: center center;
   background-size: auto;
