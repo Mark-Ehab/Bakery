@@ -109,6 +109,55 @@ div.Navigation-Bar div.Container {
   height: 100%;
 }
 
+/***************************************Panel Menu Styles***************************************/
+.Panel-Menu {
+  width: 42px;
+  padding-block: 8px;
+  background-color: white;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  position: fixed;
+  right: 0px;
+  top: 200px;
+}
+
+div.Panel-Menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.Panel-Menu ul li {
+  box-sizing: padding-box;
+  padding-block: 0px;
+  margin: 0px;
+}
+
+div.Panel-Menu ul li a {
+  width: 100%;
+  display: block;
+}
+
+div.Panel-Menu ul li a div.Panel-Menu-Icon.Gear-Icon {
+  padding-top: 5px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+}
+
+div.Panel-Menu ul li a div.Panel-Menu-Icon.Cart-Icon {
+  padding-bottom: 10px;
+}
+
+div.Panel-Menu ul li a div.Panel-Menu-Icon img {
+  width: 60%;
+  margin-inline: auto;
+  display: block;
+}
+
+div.Panel-Menu ul li a div.Panel-Menu-Icon.Cart-Icon img {
+  width: 48%;
+}
+
 /***************************************Home Styles***************************************/
 .Home-Page {
   padding-bottom: 60px;
