@@ -567,6 +567,8 @@ div.Navigation-Bar div.Container {
   background-position: center center;
   background-size: auto;
   background-repeat: no-repeat;
+  background-color: #403d38;
+  background-blend-mode: overlay;
   position: relative;
 }
 
